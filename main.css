@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(0, 0, 0, 0.753) !important;
+}
+
+#canvas {
+    border: 3px solid green;
+    position: relative;
+}
+
+h1,
+h2,
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#text {
+    position: absolute;
+    bottom: 120px;
+    left: 250px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+#story {
+    background-color: rgb(107, 182, 107);
+    border: 3px solid green;
+    padding: 50px;
+    max-width: 1000px;
+    text-align: left;
+}
+
+#gameover,
+#winbox {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 2;
+    color: white;
+}
+
+#timetext {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: green;
+    width: 100px;
+    height: 50px;
+    font-size: .3em;
+}
+
+.abutton {
+    align-content: right;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.abutton:hover {
+    color: white;
+    background-color: rgb(34, 168, 34);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#story p {
+    width: 400px;
+    margin-left: 0 !important;
+}
+
+#story img {
+    display: inline-block;
+    width: 450px;
+}
